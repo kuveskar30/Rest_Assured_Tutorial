@@ -1,4 +1,4 @@
-package files;
+package dynamicJsonAndLibraryApiExample;
 
 import java.io.IOException;
 import java.nio.file.Files;

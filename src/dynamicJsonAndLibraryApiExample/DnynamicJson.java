@@ -1,7 +1,8 @@
-package files;
+package dynamicJsonAndLibraryApiExample;
 
 import org.testng.annotations.Test;
 
+import files.CustomPayloads;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import utilities.ResusableMethods;
@@ -22,8 +23,8 @@ public class DnynamicJson {
 		
 		//Dynamic json with external data input from test
 		String add_book_response = given().log().all().header("Content-Type", "application/json")
-				.body(CustomPayloads.addBookPayload("isbn1","aisle1"))
-		.when().post("Library/Addbook.php")
+				.body(CustomPayloads.addBookPayload("isbn7","aisle7"))
+		.when().post("/Library/Addbook.php")
 		.then().log().all().assertThat().statusCode(200)
 		.extract().response().asString();
 		

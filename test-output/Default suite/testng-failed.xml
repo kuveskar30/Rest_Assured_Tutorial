@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="files.DnynamicJson">
+      <class name="hashMapAsPayload.excelRestAssureIntegration">
         <methods>
           <include name="addBook"/>
         </methods>
-      </class> <!-- files.DnynamicJson -->
+      </class> <!-- hashMapAsPayload.excelRestAssureIntegration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

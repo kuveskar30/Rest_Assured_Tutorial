@@ -1,8 +1,9 @@
-package files;
+package dynamicJsonAndLibraryApiExample;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import files.CustomPayloads;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import utilities.ResusableMethods;

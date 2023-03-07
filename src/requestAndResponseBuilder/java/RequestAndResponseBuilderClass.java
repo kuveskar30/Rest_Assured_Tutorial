@@ -1,4 +1,4 @@
-package serializationPojoClassEg;
+package requestAndResponseBuilder.java;
 import static io.restassured.RestAssured.*;
 
 import java.util.Arrays;
@@ -12,6 +12,8 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import serializationPojoClassEg.AddPlacePojoClass;
+import serializationPojoClassEg.Location;
 
 
 public class RequestAndResponseBuilderClass {
